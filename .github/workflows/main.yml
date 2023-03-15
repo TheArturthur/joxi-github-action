@@ -34,7 +34,7 @@ jobs:
         env:
           NORDIGEN_KEY: ${{ secrets.NORDIGEN_KEY }}
           NORDIGEN_SECRET: ${{ secrets.NORDIGEN_SECRET }}
-          COINBASE_KEY: ${{ secrets.COINBASE_KEY }}
-          COINBASE_SECRET: ${{ secrets.COINBASE_SECRET }}
+          #COINBASE_KEY: ${{ secrets.COINBASE_KEY }}
+          #COINBASE_SECRET: ${{ secrets.COINBASE_SECRET }}
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_MAIN_PAGE_ID: ${{ secrets.NOTION_MAIN_PAGE_ID }}
